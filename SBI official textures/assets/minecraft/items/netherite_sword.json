@@ -1,0 +1,83 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Echosteel Katana",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/echosteelblade"
+        }
+      },
+      {
+        "when": "Echoblade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/echoblade"
+        }
+      },
+      {
+        "when": "Amethest Sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pureamethestsword"
+        }
+      },
+      {
+        "when": "Obsidian Katana",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/obsidiankatana"
+        }
+      },
+      {
+        "when": "Emerald Sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/emeraldsword"
+        }
+      },
+      {
+        "when": "Ruby Blade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/rubyblade"
+        }
+      },
+      {
+        "when": "Iradium Blade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iradiumblade"
+        }
+      },
+      {
+        "when": "Sapphire Sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sapphiresword"
+        }
+      },
+      {
+        "when": "Topaz Edge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/topazedge"
+        }
+      },
+      {
+        "when": "§eKnowledge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/knowledge"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}

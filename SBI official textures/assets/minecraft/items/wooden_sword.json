@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Prismarine Sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/prismarinesword"
+        }
+      },
+      {
+        "when": "Quartzite Blade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/quartziteblade"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wooden_sword"
+    }
+  }
+}

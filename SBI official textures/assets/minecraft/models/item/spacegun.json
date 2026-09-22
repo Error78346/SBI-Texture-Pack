@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.11",
+	"credit": "MKK in Spaaaaaace",
+	"textures": {
+		"2": "item/spacegun",
+		"particle": "block/texture"
+	},
+	"elements": [
+		{
+			"from": [7, 2.25, 5],
+			"to": [10, 4, 6],
+			"faces": {
+				"north": {"uv": [0, 8, 3, 10], "texture": "#2"},
+				"east": {"uv": [9, 5, 10, 7], "texture": "#2"},
+				"south": {"uv": [3, 8, 6, 10], "texture": "#2"},
+				"west": {"uv": [6, 9, 7, 11], "texture": "#2"},
+				"up": {"uv": [9, 9, 6, 8], "texture": "#2"},
+				"down": {"uv": [12, 4, 9, 5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7, 4, 5],
+			"to": [10, 6, 13],
+			"faces": {
+				"north": {"uv": [6, 4, 9, 6], "texture": "#2"},
+				"east": {"uv": [6, 0, 14, 2], "texture": "#2"},
+				"south": {"uv": [6, 6, 9, 8], "texture": "#2"},
+				"west": {"uv": [6, 2, 14, 4], "texture": "#2"},
+				"up": {"uv": [16, 16, 10, 5], "texture": "#2"},
+				"down": {"uv": [6, 0, 3, 8], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [179.69, 1.15, 169.57],
+			"translation": [-0.25, 4.5, -1.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-178.72, -0.18, -175.72],
+			"translation": [0, 4.5, -1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, -0.5, -180],
+			"translation": [0, 7.25, -3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-0.04, 180, -2.52],
+			"translation": [-1.75, 7.75, -2]
+		},
+		"gui": {
+			"rotation": [158, 90, -156],
+			"translation": [0, 3.25, 0]
+		},
+		"head": {
+			"rotation": [0, 0.25, 0]
+		},
+		"fixed": {
+			"rotation": [-90, -90.25, -90],
+			"translation": [1, 4, 0]
+		},
+		"on_shelf": {
+			"rotation": [0, 90.25, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "crossbow(3)",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

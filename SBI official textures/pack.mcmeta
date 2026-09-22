@@ -1,0 +1,56 @@
+{
+    "pack": {
+    "min_format": 84,
+    "max_format": 96,
+        "description": "This is a texture pack made entirely for the SBI."
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "darkui_compat_overlay",
+                "min_format": 84,
+                "max_format": 96
+            },
+            {
+                "directory": "wavy_leaves_compat_overlay",
+                "min_format": 84,
+                "max_format": 96
+            },
+            {
+                "directory": "wavy_plants_compat_overlay",
+                "min_format": 84,
+                "max_format": 96
+            },
+            {
+                "directory": "wavy_water_compat_overlay",
+                "min_format": 84,
+                "max_format": 96
+            },
+            {
+                "directory": "lce_panorama_gamma_compat_overlay",
+                "min_format": 84,
+                "max_format": 96
+            },
+            {
+                "directory": "overlay_84",
+                "min_format": 84,
+                "max_format": 84
+            },
+            {
+                "directory": "overlay_84_88",
+                "min_format": 84,
+                "max_format": 88
+            },
+            {
+                "directory": "overlay_88",
+                "min_format": 88,
+                "max_format": 96
+            },
+            {
+                "directory": "overlay_96",
+                "min_format": 96,
+                "max_format": 96
+            }
+        ]
+    }
+}
